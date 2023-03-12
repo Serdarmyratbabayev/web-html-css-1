@@ -1,0 +1,104 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-origin: border-box;
+}
+
+*,
+*::after,
+*::backdrop {
+    margin: inherit;
+    padding: inherit;
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 400px;
+}
+
+
+
+.wrapper {
+    min-height: 100vh;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+.container {
+    max-width: 1210px;
+    padding: 0 7px;
+    margin: 0 auto;
+
+}
+
+.header {
+    padding-top: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 166px;
+}
+
+ul  {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+ .menu li + li {
+    margin-left: 30px;
+}
+.slider__itemn {
+    text-align: center;
+}
+
+h2 {
+    font-size: 96px;
+    font-weight: 700;
+    text-align: center;
+}
+h3 {
+    font-size: 24px;
+}
+
+.slick-dots {
+    list-style: none;
+    font-size: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.slick-dots li + li {
+    margin-left: 15px;
+}
+
+.slick-dots li {
+    height: 25px;
+    width: 25px;
+    background-color: #7A3D1C;
+    border: 2px solid #FDD486;
+    border-radius: 50%;
+}
+
+.slick-dots button {
+    font-size: 0;
+    border: none;
+    padding: 0;
+}
+
+.subtitle {
+    margin-bottom: 30px;
+}
+
